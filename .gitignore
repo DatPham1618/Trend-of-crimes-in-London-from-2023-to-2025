@@ -1,0 +1,16 @@
+# Data files (large / regenerable from data.police.uk — see README for source)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.db
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
