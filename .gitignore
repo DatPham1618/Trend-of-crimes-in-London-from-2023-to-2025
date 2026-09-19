@@ -1,6 +1,7 @@
 # Data files (large / regenerable from data.police.uk — see README for source)
 data/raw/*.csv
 data/processed/*.csv
+!data/processed/monthly_crimes_by_type_borough.csv
 data/processed/*.db
 *.db
 
@@ -15,3 +16,7 @@ __pycache__/
 Thumbs.db
 .DS_Store
 *.db-journal
+
+# Power BI local files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
